@@ -9,14 +9,9 @@ header{
     justify-content: space-between;
 }
 
-.logo{
-    size: 0cap;
-}
-
 .nav-left{
     /* border-color: blueviolet;
     border-style: groove; */
-    font-size: x-small;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
@@ -28,7 +23,6 @@ header{
 .nav-right{
     /* border-color: blueviolet;
     border-style: groove; */
-    font-size: x-small;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,3 +46,49 @@ header{
     color: white;
     border: none;
 }
+
+main{
+    border-color: red;
+    border-style: groove;
+}
+
+.container-azzurro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #B4D0E6;
+    border-color: black;
+    border-style: groove;
+}
+
+.h1-azzurro{
+    align-items: center;
+    font-size: x-large;
+    margin: 0% 15%;
+}
+
+.txt-azzurro{ 
+    border-color: rgb(86, 247, 12);
+    border-style: groove;
+    flex-direction: column;
+    margin-right: 65%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+.bt-prova{
+    color: white;
+    background-color: #0061FE;
+    border: 0;
+}
+
+.img1{
+    height: 400px;
+    width: auto;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+
+
