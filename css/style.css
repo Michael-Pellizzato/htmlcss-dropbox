@@ -1,3 +1,54 @@
 body{
     font-family: sans-serif;
 }
+
+header{
+    /* border-color: aqua;
+    border-style: groove; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    size: 0cap;
+}
+
+.nav-left{
+    /* border-color: blueviolet;
+    border-style: groove; */
+    font-size: x-small;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: 0.5%;
+    margin-right: 10%;
+}
+
+.nav-right{
+    /* border-color: blueviolet;
+    border-style: groove; */
+    font-size: x-small;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0.5%;
+    margin-left: 10%;
+    gap: 20px;
+}
+
+.bt{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.bt-accedi{
+    border: 0;
+}
+
+.bt-inizia{
+    background-color: #0061FE;
+    color: white;
+    border: none;
+}
