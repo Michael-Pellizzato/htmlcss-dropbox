@@ -138,7 +138,7 @@ main{
 }
 
 .singolo{
-    border-color: green;
+    border-color: rgb(184, 183, 183);
     border-style: groove;
     position: relative;
     display: flex;
@@ -148,7 +148,7 @@ main{
 }
 
 .team{
-    border-color: blue;
+    border-color: rgb(184, 183, 183);
     border-style: groove;
     position: relative;
     display: flex;
@@ -158,7 +158,7 @@ main{
 }
 
 .azienda{
-    border-color: yellow;
+    border-color: rgb(184, 183, 183);
     border-style: groove;
     position: relative;
     display: flex;
@@ -168,22 +168,68 @@ main{
 }
 
 .tit-singolo{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(184, 183, 183);
     display: flex;
     justify-content: center;
 }
 
 .tit-team{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(184, 183, 183);
     display: flex;
     justify-content: center;
 }
 
 .tit-azienda{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(184, 183, 183);
     display: flex;
     justify-content: center;
 }
+
+.enterprise-flex{
+    border-style: groove;
+    border-color:rgb(184, 183, 183);
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin-bottom: 5%;
+}
+
+.tit-enterprise{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(184, 183, 183);
+    margin-bottom: 5%;
+}
+
+.contatto-uff{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bt-uff-vendite{
+    background-color: #0061FE;
+    color: white;
+    border:  none;
+    width: 200px;
+    height: 40px;
+}
+
+.img-txt{
+    border-color: #0061FE;
+    border-style: groove;
+    display: flex;
+}
+
+.img-txt img{
+    height:300px;
+}
+
+.text-right-img{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
 
 
 
