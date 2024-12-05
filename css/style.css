@@ -122,8 +122,8 @@ main{
 }
 
 .tbl-prezzi{
-    border-style: groove;
-    border-color: red;
+    /* border-style: groove;
+    border-color: red; */
     display: flex;
     justify-content: space-between;
     gap: 8%;
@@ -131,38 +131,59 @@ main{
 
 }
 
-/* .bt-30gg{
-    display: contents;
+.bt-30gg{
     background-color: #0061FE;
     color: white;
-    
-} */
+    border:  none;
+}
 
 .singolo{
     border-color: green;
     border-style: groove;
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 2%;
-    
+    padding: 4%;
+    gap: 1%;
 }
 
 .team{
     border-color: blue;
     border-style: groove;
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    padding: 4%;
+    gap: 1%;
 }
 
 .azienda{
     border-color: yellow;
     border-style: groove;
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    padding: 4%;
+    gap: 1%;
 }
 
+.tit-singolo{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+
+.tit-team{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+
+.tit-azienda{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
 
 
 
