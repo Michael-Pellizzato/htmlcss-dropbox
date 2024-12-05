@@ -7,6 +7,7 @@ header{
     border-style: groove; */
     display: flex;
     justify-content: space-between;
+    margin: 1% 1%;
 }
 
 .nav-left{
@@ -48,8 +49,8 @@ header{
 }
 
 main{
-    border-color: red;
-    border-style: groove;
+    /* border-color: red;
+    border-style: groove; */
 }
 
 .container-azzurro{
@@ -57,23 +58,33 @@ main{
     display: flex;
     flex-direction: column;
     background-color: #B4D0E6;
-    border-color: black;
-    border-style: groove;
+    z-index: 1;
+    /* border-color: black;
+    border-style: groove; */
 }
 
 .h1-azzurro{
     align-items: center;
     font-size: x-large;
-    margin: 0% 15%;
+    margin: 2% 15%;
 }
 
 .txt-azzurro{ 
-    border-color: rgb(86, 247, 12);
-    border-style: groove;
+    /* border-color: rgb(86, 247, 12);
+    border-style: groove; */
     flex-direction: column;
-    margin-right: 65%;
+    margin-right: 60%;
     margin-left: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+    gap: 10px;
+}
+
+.bt-arrow{
+    display: flex;
+    flex-direction: column;
+    margin-right: 72%;
+    margin-left: 15%;
+    margin-bottom: 2%;
 }
 
 .bt-prova{
@@ -83,12 +94,78 @@ main{
 }
 
 .img1{
-    height: 400px;
+    height: 380px;
     width: auto;
     position: absolute;
-    top: 45%;
+    top: 38%;
     left: 40%;
 }
+
+.main-ristretto{
+    /* border-style: groove;
+    border-color: red; */
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.down-azzurro{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10%;
+}
+
+.metodo-fatturazione{
+    display: flex;
+    justify-content: flex-start;;
+    gap: 2%;
+}
+
+.tbl-prezzi{
+    border-style: groove;
+    border-color: red;
+    display: flex;
+    justify-content: space-between;
+    gap: 8%;
+    padding: 3%;
+
+}
+
+/* .bt-30gg{
+    display: contents;
+    background-color: #0061FE;
+    color: white;
+    
+} */
+
+.singolo{
+    border-color: green;
+    border-style: groove;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    
+}
+
+.team{
+    border-color: blue;
+    border-style: groove;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.azienda{
+    border-color: yellow;
+    border-style: groove;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+
+
+
 
 
 
