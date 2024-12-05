@@ -2,6 +2,10 @@ body{
     font-family: sans-serif;
 }
 
+u{
+    color: #0061FE;
+}
+
 header{
     /* border-color: aqua;
     border-style: groove; */
@@ -258,9 +262,27 @@ main{
 
 }
 
-.fkex-dark{
+.flex-dark{
     background-color: #000000;
     color: #fff;
+    font-size: x-small;
+    display: flex;
+    margin-top: 15%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+    gap: 80px;
+}
+
+.flex-footer-column{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.flex-footer-column div{
+    margin-bottom: 15px;
+    font-size: small;
 }
 
 
