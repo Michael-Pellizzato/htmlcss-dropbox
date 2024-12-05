@@ -215,9 +215,10 @@ main{
 }
 
 .img-txt{
-    border-color: #0061FE;
-    border-style: groove;
+    /* border-color: #0061FE;
+    border-style: groove; */
     display: flex;
+    margin-bottom: 20%;
 }
 
 .img-txt img{
@@ -230,7 +231,37 @@ main{
     padding: 4%;
 }
 
+.tab-flex{
+    /* border-color: red;
+    border-style: groove; */
+    display: flex;
+    padding: 2%;
+    margin-bottom: 20%;
+}
 
+.tab1{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.tab2{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.tab3{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+
+}
+
+.fkex-dark{
+    background-color: #000000;
+    color: #fff;
+}
 
 
 
